@@ -9,7 +9,7 @@ public class Conexion {
         Connection conexion = null;
         //para la conexión a MySql
         var baseDatos = "zona_fit_db";
-        var url = "jdbc:mysql://localhost:3306/" + baseDatos;
+        var url = " "  + baseDatos;  //tu url
         var usuario = " "; //tu usuario
         var password = " "; //tu contraseña
 
